@@ -1,0 +1,78 @@
+body, html {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+    height: 100%;
+    }
+#header{
+    background: url("Foto/header_010101.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 150px;
+    }
+#left{
+    background-color:#d7ebee;
+    width:200px;
+    float:left;
+    box-sizing: border-box;
+    min-height: 100%;
+    padding-bottom: 90px;
+    }
+#content{
+    margin-left:300px;
+    margin-top: 100px;
+    }
+#footer{
+    background-color:#d7ebee;
+    clear:both;
+    height: 20px;
+    margin-top:-20px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 200px;
+    }
+
+#menu a {
+    color: #000000;
+    padding-top: 50px;
+    text-decoration: wavy;
+    font-weight: lighter;
+    display: block;
+    }
+
+#catalog {
+    margin-left:300px;
+    }
+
+#left_ {
+    float: left;
+    margin-left: -50px;
+    }
+
+#left_text {
+    font-size: 20px;
+}
+
+#left_ ul {
+    list-style: none;
+    float: left;
+    margin: 0;
+    text-align: left;
+}
+
+#right_ {
+    float: right; 
+    margin: 0
+    }
+
+#right_ img {
+    width: 1000px;
+    height: 700px;
+    margin-right: 100px;
+}
